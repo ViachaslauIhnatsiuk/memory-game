@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Shizuru&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="./css/style.css">
+	<title>Memory game</title>
+</head>
+
+<body>
+	<header class="header">
+		<a class="header__title"
+			href="https://rolling-scopes-school.github.io/viachaslauihnatsiuk-JSFEPRESCHOOL/memory-game">MEMORY GAME</a>
+	</header>
+	<main class="main">
+		<div class="game__wrapper">
+			<aside class="game__info">
+				<div class="game__moves">MOVES</div>
+				<div class="game__count">0</div>
+				<div class="game__completed">
+					<div class="game__completed-score"></div>
+					<button class="game__completed-reset">RESET GAME</button>
+				</div>
+				<div class="game__results results-game">
+				</div>
+				<div class="game__reset">
+					<button class="game__reset-results">RESET RESULTS</button>
+					<svg class="game__reset-button">
+						<use xlink:href="img/sprite.svg#reset-button"></use>
+					</svg>
+				</div>
+			</aside>
+			<div class="game__main main-game">
+			</div>
+		</div>
+	</main>
+	<footer class="footer">
+		<div class="footer__main">
+			<div class="footer__left">
+				<div class="footer__year">2022</div>
+				<a href="https://github.com/ViachaslauIhnatsiuk" class="footer__github">GitHub</a>
+			</div>
+			<ul class="footer__center">
+				<li class="footer__social">
+					<a href="https://www.instagram.com/">
+						<svg class="footer__social-instagram">
+							<use xlink:href="img/sprite.svg#instagram"></use>
+						</svg>
+					</a>
+				</li>
+				<li class="footer__social">
+					<a href="https://www.facebook.com/">
+						<svg class="footer__social-facebook">
+							<use xlink:href="img/sprite.svg#facebook"></use>
+						</svg>
+					</a>
+				</li>
+				<li class="footer__social">
+					<a href="https://twitter.com/">
+						<svg class="footer__social-twitter">
+							<use xlink:href="img/sprite.svg#twitter"></use>
+						</svg>
+					</a>
+				</li>
+				<li class="footer__social">
+					<a href="https://www.pinterest.com/">
+						<svg class="footer__social-pinterest">
+							<use xlink:href="img/sprite.svg#pinterest"></use>
+						</svg>
+					</a>
+				</li>
+			</ul>
+			<a href="https://rs.school/js-stage0/">
+				<img class="footer__rs-logo" src="img/rs-logo.svg" alt="rolling-scopes-school logo">
+			</a>
+		</div>
+	</footer>
+	<script src="./js/index.js"></script>
+</body>
+
+</html>
